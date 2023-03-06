@@ -1,0 +1,44 @@
+### POST https://zamaev-congenial-telegram-xx5p6pwr996396xg-8000.preview.app.github.dev/auth/users/
+POST https://zamaev-congenial-telegram-xx5p6pwr996396xg-8000.preview.app.github.dev/auth/jwt/create/
+Content-Type: application/json
+
+{
+    "username": "test1",
+    "password": "Abc123$%"
+}
+### eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc3NjgyOTA5LCJqdGkiOiIyNjQzZjczYTI4YTI0MDExODE0MTE5NTkzNDM4ZTk5MiIsInVzZXJfaWQiOjF9.6vL2LVC73_5RLlnMuxaxsdSRFyv77awoKnKCvrx5HhU
+### eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY3NzY4MjkwOSwianRpIjoiMmFiNGE2N2JiODk5NDg3MjhhNDVkZDUwOTY3ODEyMTMiLCJ1c2VyX2lkIjoxfQ.Dh5FD2Nr40eO1W2IIaSWtDb6gQV5HIHFjayo-DmMXWg
+###
+
+### POST https://zamaev-congenial-telegram-xx5p6pwr996396xg-8000.preview.app.github.dev/auth/users/
+POST https://zamaev-congenial-telegram-xx5p6pwr996396xg-8000.preview.app.github.dev/auth/jwt/create/
+Content-Type: application/json
+
+{
+    "username": "hello2",
+    "password": "Abc123$%"
+}
+### 
+### 
+###
+
+
+GET https://zamaev-congenial-telegram-xx5p6pwr996396xg-8000.preview.app.github.dev/users/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc3NjgyOTA5LCJqdGkiOiIyNjQzZjczYTI4YTI0MDExODE0MTE5NTkzNDM4ZTk5MiIsInVzZXJfaWQiOjF9.6vL2LVC73_5RLlnMuxaxsdSRFyv77awoKnKCvrx5HhU
+###
+
+GET https://zamaev-congenial-telegram-xx5p6pwr996396xg-8000.preview.app.github.dev/cats/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc3NjgyOTA5LCJqdGkiOiIyNjQzZjczYTI4YTI0MDExODE0MTE5NTkzNDM4ZTk5MiIsInVzZXJfaWQiOjF9.6vL2LVC73_5RLlnMuxaxsdSRFyv77awoKnKCvrx5HhU
+###
+
+POST https://zamaev-congenial-telegram-xx5p6pwr996396xg-8000.preview.app.github.dev/cats/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc3NjgyOTA5LCJqdGkiOiIyNjQzZjczYTI4YTI0MDExODE0MTE5NTkzNDM4ZTk5MiIsInVzZXJfaWQiOjF9.6vL2LVC73_5RLlnMuxaxsdSRFyv77awoKnKCvrx5HhU
+
+{
+    "name": "Miska",
+    "color": "Black",
+    "birth_year": "2022"
+}
+###
